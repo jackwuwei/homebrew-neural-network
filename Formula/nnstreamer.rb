@@ -3,8 +3,8 @@ class Nnstreamer < Formula
   homepage "https://github.com/nnstreamer/nnstreamer"
   stable do
     url "https://github.com/nnstreamer/nnstreamer/archive/refs/tags/v2.1.1.tar.gz"
-    version "2.0.0"
-    sha256 "1282297ec55d1b87781c218b8ac313b24ae9636c6b41519a5c8435f71b07395a"
+    version "2.1.1"
+    sha256 "aecb6ca631ed1cb7caf477c4ca2de6b4ddabb01d1a3163b127a3ca8bef0f57a8"
     patch do
       url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0001-Local-Tests-Skip-the-SSAT-based-test-cases-that-fail.patch"
       sha256 "648e409ceec36247e5ba614d9feb0a807675d68441c8b194e9bfa98b636c539f"
