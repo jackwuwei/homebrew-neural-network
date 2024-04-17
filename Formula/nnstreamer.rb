@@ -5,18 +5,18 @@ class Nnstreamer < Formula
     url "https://github.com/nnstreamer/nnstreamer/archive/refs/tags/v2.1.1.tar.gz"
     version "2.1.1"
     sha256 "aecb6ca631ed1cb7caf477c4ca2de6b4ddabb01d1a3163b127a3ca8bef0f57a8"
-    patch do
-      url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0001-Local-Tests-Skip-the-SSAT-based-test-cases-that-fail.patch"
-      sha256 "648e409ceec36247e5ba614d9feb0a807675d68441c8b194e9bfa98b636c539f"
-    end
-    patch do
-      url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0002-Local-Query-Common-Replace-EREMOTEIO-with-ENOTCONN.patch"
-      sha256 "ff58094a81c98db97b4da9fe43b7180eae24e68e0512252d3105a3720c6d258c"
-    end
-    patch do
-      url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0003-Local-Tests-FilterExtCommon-Add-a-missing-parameter-.patch"
-      sha256 "f2f5c0b5ad3a31889f945f19b1b484c863ad14295d5d5e67c6e188f87b8f24f7"
-    end
+    #patch do
+    #  url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0001-Local-Tests-Skip-the-SSAT-based-test-cases-that-fail.patch"
+    #  sha256 "648e409ceec36247e5ba614d9feb0a807675d68441c8b194e9bfa98b636c539f"
+    #end
+    #patch do
+    #  url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0002-Local-Query-Common-Replace-EREMOTEIO-with-ENOTCONN.patch"
+    #  sha256 "ff58094a81c98db97b4da9fe43b7180eae24e68e0512252d3105a3720c6d258c"
+    #end
+    #patch do
+    #  url "https://raw.githubusercontent.com/nnstreamer/homebrew-neural-network/master/Formula/nnstreamer-patches/0003-Local-Tests-FilterExtCommon-Add-a-missing-parameter-.patch"
+    #  sha256 "f2f5c0b5ad3a31889f945f19b1b484c863ad14295d5d5e67c6e188f87b8f24f7"
+    #end
     depends_on :macos
     depends_on "meson" => :build
     depends_on "ninja" => :build
