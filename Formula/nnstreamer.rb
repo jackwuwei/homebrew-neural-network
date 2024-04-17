@@ -2,7 +2,7 @@ class Nnstreamer < Formula
   desc "Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices."
   homepage "https://github.com/nnstreamer/nnstreamer"
   stable do
-    url "https://github.com/nnstreamer/nnstreamer/archive/refs/tags/v2.0.0.tar.gz"
+    url "https://github.com/nnstreamer/nnstreamer/archive/refs/tags/v2.1.1.tar.gz"
     version "2.0.0"
     sha256 "1282297ec55d1b87781c218b8ac313b24ae9636c6b41519a5c8435f71b07395a"
     patch do
